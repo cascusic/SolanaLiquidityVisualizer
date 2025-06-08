@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "paths": {
+      "@raydium-io/raydium-sdk-v2": ["__mocks__/raydium-sdk-v2.ts"]
+    }
+  },
+  "include": ["src/**/*", "__tests__/**/*"]
+}
